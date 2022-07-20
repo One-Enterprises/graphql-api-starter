@@ -68,7 +68,7 @@ const startApolloGraphQLServer = (_app) => __awaiter(void 0, void 0, void 0, fun
 (() => __awaiter(void 0, void 0, void 0, function* () {
     const httpServer = yield startApolloGraphQLServer(app_1.default);
     httpServer.listen(port, () => {
-        console.log(`🚀 Graphql Server ready at https://localhost:${port}/graphql`);
+        console.log(`🚀 Graphql Server ready at http://localhost:${port}/graphql`);
     });
 }))();
 process.on('SIGINT', () => {

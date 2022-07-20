@@ -64,7 +64,7 @@ const startApolloGraphQLServer = async (_app: any) => {
   const httpServer = await startApolloGraphQLServer(app)
 
   httpServer.listen(port, () => {
-    console.log(`🚀 Graphql Server ready at https://localhost:${port}/graphql`)
+    console.log(`🚀 Graphql Server ready at http://localhost:${port}/graphql`)
   })
 })()
 
